@@ -74,9 +74,35 @@
   </div> 
  
   <!-- services / tabs -->
-  <div class="container">
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim aspernatur pariatur magnam mollitia vero sed dolores odio. Quibusdam ipsa tenetur voluptatem id provident nostrum incidunt repellendus sed inventore, nihil voluptatibus. Eveniet nobis soluta nam officiis culpa voluptas deleniti beatae! Accusamus.</p>
-  </div>
+  <section class="container section" id="services">
+    <div class="row">
+      <div class="col s12 l4">
+        <h2 class="indigo-text text-darken-4">What I do...</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos unde, eligendi ipsum ratione deserunt harum vitae ut. Consectetur dignissimos impedit quod magnam ipsum tempore!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos unde, eligendi ipsum ratione deserunt harum vitae ut. Consectetur dignissimos impedit quod magnam ipsum tempore!</p>
+      </div>
+      <div class="col s12 l6 offset-l2">
+        <ul class="tabs">
+          <li class="tab col s6">
+            <a href="#photography" class="indigo-text text-darken-5">Photography</a>
+          </li>
+          <li class="tab col s6">
+            <a href="#editing" class="indigo-text text-darken-5">Editing</a>
+          </li>
+        </ul>
+        <div class="col s12" id="photography">
+          <p class="flow-text indigo-text text-darken-4">PHOTOGRAPHY</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, eum. Unde iusto tenetur ipsum optio inventore dolorem numquam repudiandae quisquam reiciendis cumque. Nostrum, qui!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo laboriosam harum labore quia nostrum? Veritatis aut repudiandae, doloremque accusantium dolor rerum!</p>
+        </div>
+        <div class="col s12" id="editing">
+          <p class="flow-text indigo-text text-darken-4">EDITING</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, eum. Unde iusto tenetur ipsum optio inventore dolorem numquam repudiandae quisquam reiciendis cumque. Nostrum, qui!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo laboriosam harum labore quia nostrum? Veritatis aut repudiandae, doloremque accusantium dolor rerum!</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- parallax -->
   <div class="parallax-container">
@@ -97,6 +123,7 @@
       $('.sidenav').sidenav()
       $('.materialboxed').materialbox()
       $('.parallax').parallax()
+      $('.tabs').tabs()
     });
   </script>
 </body>
